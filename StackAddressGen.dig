@@ -262,10 +262,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>CLR</string>
+          <string>~CLR</string>
         </entry>
       </elementAttributes>
-      <pos x="360" y="340"/>
+      <pos x="320" y="340"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -286,6 +286,11 @@
       <elementName>VDD</elementName>
       <elementAttributes/>
       <pos x="560" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="340" y="340"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -394,7 +399,11 @@
       <p2 x="580" y="340"/>
     </wire>
     <wire>
-      <p1 x="360" y="340"/>
+      <p1 x="320" y="340"/>
+      <p2 x="340" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="340"/>
       <p2 x="400" y="340"/>
     </wire>
     <wire>
